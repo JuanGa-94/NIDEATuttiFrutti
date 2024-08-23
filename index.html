@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <title>NIDEA - Botonera</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="logo">
+        <h1>
+            Tutti Frutti 🎲
+        </h1>
+    </header>
+    <section>
+        <div class="column">
+            <button id="startButton">Daleee</button>
+            <button id="stopButton" disabled>Stop!</button>
+            <button id="restartButton" disabled>Va de nuevo</button>
+        </div>
+        <div class="column">
+            <p id="randomLetter" class="colu">Letra</p>
+        </div>
+        <div class="column">
+            <p class="colu">Tiempo restante: <span id="timer">60</span> segundos</p>
+        </div>
+
+    </section>
+    <footer>
+        <p>@ Creado por JuanGa - para NIDEA - 2024</p>
+    </footer>
+    <script src="game.js"></script>
+</body>
+
+</html>
